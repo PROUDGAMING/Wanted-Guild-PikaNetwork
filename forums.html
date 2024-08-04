@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanted Guild Forums</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .button {
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Wanted Guild's Forums. You can Apply or Report Here</h1>
+    <button class="button" onclick="applyForGuild()">Apply for Guild</button>
+    <button class="button" onclick="reportPlayer()">Report Player</button>
+
+    <script>
+        function reportPlayer() {
+            alert('We have moved to Discord reports now. Make sure to follow the following format to report a player here: \n1- Rule Breaker(s) Discord Name \n2- Rule(s) Broken \n3- Proof \n Click on OK to redirect to discord page.');
+            window.location.href = 'https://discord.com/channels/1267855315286757516/1268561844323483741';
+        }
+
+        function applyForGuild() {
+            window.location.href = 'https://forms.gle/6fiTZXjBZuvNgDp7A';
+        }
+    </script>
+
+<style>
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+</style>
+</body>
+</html>
